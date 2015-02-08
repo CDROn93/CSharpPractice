@@ -1,0 +1,1 @@
+This is where I will place projects as i am trying things inside of c#.  I will start off by making a new branch, and will merge periodically.
