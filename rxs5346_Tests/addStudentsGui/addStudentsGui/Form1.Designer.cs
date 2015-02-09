@@ -28,260 +28,283 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.addStudentsGroupBox = new System.Windows.Forms.GroupBox();
+            this.secondRegionLabel = new System.Windows.Forms.Label();
             this.addStudentButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.secondWildCardLabel = new System.Windows.Forms.Label();
+            this.thirdWildCardLabel = new System.Windows.Forms.Label();
+            this.firstWildCardLabel = new System.Windows.Forms.Label();
+            this.sixthRegionLabel = new System.Windows.Forms.Label();
+            this.fifthRegion = new System.Windows.Forms.Label();
+            this.fourthRegionLabel = new System.Windows.Forms.Label();
+            this.thirdRegionLabel = new System.Windows.Forms.Label();
+            this.firstRegionLabel = new System.Windows.Forms.Label();
+            this.thirdWildCardBox = new System.Windows.Forms.TextBox();
+            this.secondWildCardBox = new System.Windows.Forms.TextBox();
+            this.firstWildCardBox = new System.Windows.Forms.TextBox();
+            this.sixthRegionBox = new System.Windows.Forms.TextBox();
+            this.fifthRegionBox = new System.Windows.Forms.TextBox();
+            this.fourthRegionBox = new System.Windows.Forms.TextBox();
+            this.thirdRegionBox = new System.Windows.Forms.TextBox();
+            this.secondRegionBox = new System.Windows.Forms.TextBox();
+            this.firstRegionBox = new System.Windows.Forms.TextBox();
+            this.addSchoolCheck = new System.Windows.Forms.RadioButton();
+            this.addStudentCheck = new System.Windows.Forms.RadioButton();
+            this.removeStudentCheck = new System.Windows.Forms.RadioButton();
+            this.removeSchoolCheck = new System.Windows.Forms.RadioButton();
             this.runProgramButton = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.checkBoxGroup = new System.Windows.Forms.GroupBox();
+            this.removeStudentGroupBox = new System.Windows.Forms.GroupBox();
+            this.nameOfStudentToRemoveBox = new System.Windows.Forms.TextBox();
+            this.nameStudentRemoveLabel = new System.Windows.Forms.Label();
+            this.removeStudentButton = new System.Windows.Forms.Button();
+            this.addSchoolGroupBox = new System.Windows.Forms.GroupBox();
+            this.regionOfSchoolBox = new System.Windows.Forms.TextBox();
+            this.numberOfPlacementsBox = new System.Windows.Forms.TextBox();
+            this.nameOfSchoolToAddBox = new System.Windows.Forms.TextBox();
+            this.regionOfSchoolLabel = new System.Windows.Forms.Label();
+            this.numOfStudentsAcceptedLabel = new System.Windows.Forms.Label();
+            this.addSchoolNameLabel = new System.Windows.Forms.Label();
+            this.addSchoolButton = new System.Windows.Forms.Button();
+            this.removeSchoolGroupBox = new System.Windows.Forms.GroupBox();
+            this.schoolNameToRemoveBox = new System.Windows.Forms.TextBox();
+            this.schoolNameToRemoveLabel = new System.Windows.Forms.Label();
+            this.addStudentsGroupBox.SuspendLayout();
+            this.checkBoxGroup.SuspendLayout();
+            this.removeStudentGroupBox.SuspendLayout();
+            this.addSchoolGroupBox.SuspendLayout();
+            this.removeSchoolGroupBox.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // addStudentsGroupBox
+            // 
+            this.addStudentsGroupBox.Controls.Add(this.secondRegionLabel);
+            this.addStudentsGroupBox.Controls.Add(this.addStudentButton);
+            this.addStudentsGroupBox.Controls.Add(this.secondWildCardLabel);
+            this.addStudentsGroupBox.Controls.Add(this.thirdWildCardLabel);
+            this.addStudentsGroupBox.Controls.Add(this.firstWildCardLabel);
+            this.addStudentsGroupBox.Controls.Add(this.sixthRegionLabel);
+            this.addStudentsGroupBox.Controls.Add(this.fifthRegion);
+            this.addStudentsGroupBox.Controls.Add(this.fourthRegionLabel);
+            this.addStudentsGroupBox.Controls.Add(this.thirdRegionLabel);
+            this.addStudentsGroupBox.Controls.Add(this.firstRegionLabel);
+            this.addStudentsGroupBox.Controls.Add(this.thirdWildCardBox);
+            this.addStudentsGroupBox.Controls.Add(this.secondWildCardBox);
+            this.addStudentsGroupBox.Controls.Add(this.firstWildCardBox);
+            this.addStudentsGroupBox.Controls.Add(this.sixthRegionBox);
+            this.addStudentsGroupBox.Controls.Add(this.fifthRegionBox);
+            this.addStudentsGroupBox.Controls.Add(this.fourthRegionBox);
+            this.addStudentsGroupBox.Controls.Add(this.thirdRegionBox);
+            this.addStudentsGroupBox.Controls.Add(this.secondRegionBox);
+            this.addStudentsGroupBox.Controls.Add(this.firstRegionBox);
+            this.addStudentsGroupBox.Location = new System.Drawing.Point(84, 73);
+            this.addStudentsGroupBox.Name = "addStudentsGroupBox";
+            this.addStudentsGroupBox.Size = new System.Drawing.Size(412, 532);
+            this.addStudentsGroupBox.TabIndex = 20;
+            this.addStudentsGroupBox.TabStop = false;
+            this.addStudentsGroupBox.Text = "Add Students";
+            this.addStudentsGroupBox.Visible = false;
+            // 
+            // secondRegionLabel
+            // 
+            this.secondRegionLabel.AutoSize = true;
+            this.secondRegionLabel.Location = new System.Drawing.Point(77, 76);
+            this.secondRegionLabel.Name = "secondRegionLabel";
+            this.secondRegionLabel.Size = new System.Drawing.Size(105, 17);
+            this.secondRegionLabel.TabIndex = 19;
+            this.secondRegionLabel.Text = "Second Region";
             // 
             // addStudentButton
             // 
-            this.addStudentButton.Location = new System.Drawing.Point(455, 482);
+            this.addStudentButton.Location = new System.Drawing.Point(261, 465);
             this.addStudentButton.Name = "addStudentButton";
             this.addStudentButton.Size = new System.Drawing.Size(101, 23);
             this.addStudentButton.TabIndex = 0;
             this.addStudentButton.Text = "Add Student";
             this.addStudentButton.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // secondWildCardLabel
             // 
-            this.textBox1.Location = new System.Drawing.Point(430, 27);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 1;
+            this.secondWildCardLabel.AutoSize = true;
+            this.secondWildCardLabel.Location = new System.Drawing.Point(77, 350);
+            this.secondWildCardLabel.Name = "secondWildCardLabel";
+            this.secondWildCardLabel.Size = new System.Drawing.Size(121, 17);
+            this.secondWildCardLabel.TabIndex = 18;
+            this.secondWildCardLabel.Text = "Second Wild Card";
             // 
-            // textBox2
+            // thirdWildCardLabel
             // 
-            this.textBox2.Location = new System.Drawing.Point(430, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 2;
+            this.thirdWildCardLabel.AutoSize = true;
+            this.thirdWildCardLabel.Location = new System.Drawing.Point(76, 402);
+            this.thirdWildCardLabel.Name = "thirdWildCardLabel";
+            this.thirdWildCardLabel.Size = new System.Drawing.Size(106, 17);
+            this.thirdWildCardLabel.TabIndex = 16;
+            this.thirdWildCardLabel.Text = "Third Wild Card";
             // 
-            // textBox3
+            // firstWildCardLabel
             // 
-            this.textBox3.Location = new System.Drawing.Point(430, 122);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 3;
+            this.firstWildCardLabel.AutoSize = true;
+            this.firstWildCardLabel.Location = new System.Drawing.Point(77, 297);
+            this.firstWildCardLabel.Name = "firstWildCardLabel";
+            this.firstWildCardLabel.Size = new System.Drawing.Size(100, 17);
+            this.firstWildCardLabel.TabIndex = 15;
+            this.firstWildCardLabel.Text = "First Wild Card";
             // 
-            // textBox4
+            // sixthRegionLabel
             // 
-            this.textBox4.Location = new System.Drawing.Point(430, 166);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 4;
+            this.sixthRegionLabel.AutoSize = true;
+            this.sixthRegionLabel.Location = new System.Drawing.Point(77, 260);
+            this.sixthRegionLabel.Name = "sixthRegionLabel";
+            this.sixthRegionLabel.Size = new System.Drawing.Size(87, 17);
+            this.sixthRegionLabel.TabIndex = 14;
+            this.sixthRegionLabel.Text = "Sixth Region";
             // 
-            // textBox5
+            // fifthRegion
             // 
-            this.textBox5.Location = new System.Drawing.Point(430, 214);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 5;
+            this.fifthRegion.AutoSize = true;
+            this.fifthRegion.Location = new System.Drawing.Point(77, 219);
+            this.fifthRegion.Name = "fifthRegion";
+            this.fifthRegion.Size = new System.Drawing.Size(84, 17);
+            this.fifthRegion.TabIndex = 13;
+            this.fifthRegion.Text = "Fifth Region";
             // 
-            // textBox6
+            // fourthRegionLabel
             // 
-            this.textBox6.Location = new System.Drawing.Point(430, 255);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 22);
-            this.textBox6.TabIndex = 6;
+            this.fourthRegionLabel.AutoSize = true;
+            this.fourthRegionLabel.Location = new System.Drawing.Point(77, 171);
+            this.fourthRegionLabel.Name = "fourthRegionLabel";
+            this.fourthRegionLabel.Size = new System.Drawing.Size(98, 17);
+            this.fourthRegionLabel.TabIndex = 12;
+            this.fourthRegionLabel.Text = "Fourth Region";
             // 
-            // textBox7
+            // thirdRegionLabel
             // 
-            this.textBox7.Location = new System.Drawing.Point(430, 297);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 22);
-            this.textBox7.TabIndex = 7;
+            this.thirdRegionLabel.AutoSize = true;
+            this.thirdRegionLabel.Location = new System.Drawing.Point(77, 127);
+            this.thirdRegionLabel.Name = "thirdRegionLabel";
+            this.thirdRegionLabel.Size = new System.Drawing.Size(90, 17);
+            this.thirdRegionLabel.TabIndex = 11;
+            this.thirdRegionLabel.Text = "Third Region";
             // 
-            // textBox8
+            // firstRegionLabel
             // 
-            this.textBox8.Location = new System.Drawing.Point(430, 350);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 22);
-            this.textBox8.TabIndex = 8;
+            this.firstRegionLabel.AutoSize = true;
+            this.firstRegionLabel.Location = new System.Drawing.Point(77, 27);
+            this.firstRegionLabel.Name = "firstRegionLabel";
+            this.firstRegionLabel.Size = new System.Drawing.Size(84, 17);
+            this.firstRegionLabel.TabIndex = 10;
+            this.firstRegionLabel.Text = "First Region";
             // 
-            // textBox9
+            // thirdWildCardBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(430, 402);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 22);
-            this.textBox9.TabIndex = 9;
+            this.thirdWildCardBox.Location = new System.Drawing.Point(261, 402);
+            this.thirdWildCardBox.Name = "thirdWildCardBox";
+            this.thirdWildCardBox.Size = new System.Drawing.Size(100, 22);
+            this.thirdWildCardBox.TabIndex = 9;
             // 
-            // label1
+            // secondWildCardBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(77, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
+            this.secondWildCardBox.Location = new System.Drawing.Point(261, 350);
+            this.secondWildCardBox.Name = "secondWildCardBox";
+            this.secondWildCardBox.Size = new System.Drawing.Size(100, 22);
+            this.secondWildCardBox.TabIndex = 8;
             // 
-            // label2
+            // firstWildCardBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(77, 127);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "label2";
+            this.firstWildCardBox.Location = new System.Drawing.Point(261, 297);
+            this.firstWildCardBox.Name = "firstWildCardBox";
+            this.firstWildCardBox.Size = new System.Drawing.Size(100, 22);
+            this.firstWildCardBox.TabIndex = 7;
             // 
-            // label3
+            // sixthRegionBox
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(77, 171);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 17);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "label3";
+            this.sixthRegionBox.Location = new System.Drawing.Point(261, 255);
+            this.sixthRegionBox.Name = "sixthRegionBox";
+            this.sixthRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.sixthRegionBox.TabIndex = 6;
             // 
-            // label4
+            // fifthRegionBox
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(77, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(46, 17);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "label4";
+            this.fifthRegionBox.Location = new System.Drawing.Point(261, 214);
+            this.fifthRegionBox.Name = "fifthRegionBox";
+            this.fifthRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.fifthRegionBox.TabIndex = 5;
             // 
-            // label5
+            // fourthRegionBox
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(77, 260);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 17);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "label5";
+            this.fourthRegionBox.Location = new System.Drawing.Point(261, 166);
+            this.fourthRegionBox.Name = "fourthRegionBox";
+            this.fourthRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.fourthRegionBox.TabIndex = 4;
             // 
-            // label6
+            // thirdRegionBox
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(77, 297);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 17);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "label6";
+            this.thirdRegionBox.Location = new System.Drawing.Point(261, 122);
+            this.thirdRegionBox.Name = "thirdRegionBox";
+            this.thirdRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.thirdRegionBox.TabIndex = 3;
             // 
-            // label7
+            // secondRegionBox
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(85, 402);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 17);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "label7";
+            this.secondRegionBox.Location = new System.Drawing.Point(261, 76);
+            this.secondRegionBox.Name = "secondRegionBox";
+            this.secondRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.secondRegionBox.TabIndex = 2;
             // 
-            // label9
+            // firstRegionBox
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(85, 355);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 17);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "label9";
+            this.firstRegionBox.Location = new System.Drawing.Point(261, 27);
+            this.firstRegionBox.Name = "firstRegionBox";
+            this.firstRegionBox.Size = new System.Drawing.Size(100, 22);
+            this.firstRegionBox.TabIndex = 1;
             // 
-            // label10
+            // addSchoolCheck
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(77, 76);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 17);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "label10";
+            this.addSchoolCheck.AutoSize = true;
+            this.addSchoolCheck.Location = new System.Drawing.Point(433, 20);
+            this.addSchoolCheck.Name = "addSchoolCheck";
+            this.addSchoolCheck.Size = new System.Drawing.Size(101, 21);
+            this.addSchoolCheck.TabIndex = 23;
+            this.addSchoolCheck.TabStop = true;
+            this.addSchoolCheck.Text = "Add School";
+            this.addSchoolCheck.UseVisualStyleBackColor = true;
+            this.addSchoolCheck.CheckedChanged += new System.EventHandler(this.addSchoolCheck_CheckedChanged);
             // 
-            // groupBox1
+            // addStudentCheck
             // 
-            this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.addStudentButton);
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox8);
-            this.groupBox1.Controls.Add(this.textBox7);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Location = new System.Drawing.Point(223, 79);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(615, 532);
-            this.groupBox1.TabIndex = 20;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.addStudentCheck.AutoSize = true;
+            this.addStudentCheck.Location = new System.Drawing.Point(34, 20);
+            this.addStudentCheck.Name = "addStudentCheck";
+            this.addStudentCheck.Size = new System.Drawing.Size(107, 21);
+            this.addStudentCheck.TabIndex = 21;
+            this.addStudentCheck.TabStop = true;
+            this.addStudentCheck.Text = "Add Student";
+            this.addStudentCheck.UseVisualStyleBackColor = true;
+            this.addStudentCheck.CheckedChanged += new System.EventHandler(this.addStudentCheck_CheckedChanged);
             // 
-            // radioButton1
+            // removeStudentCheck
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(34, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(110, 21);
-            this.radioButton1.TabIndex = 21;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.removeStudentCheck.AutoSize = true;
+            this.removeStudentCheck.Location = new System.Drawing.Point(225, 20);
+            this.removeStudentCheck.Name = "removeStudentCheck";
+            this.removeStudentCheck.Size = new System.Drawing.Size(134, 21);
+            this.removeStudentCheck.TabIndex = 22;
+            this.removeStudentCheck.TabStop = true;
+            this.removeStudentCheck.Text = "Remove Student";
+            this.removeStudentCheck.UseVisualStyleBackColor = true;
+            this.removeStudentCheck.CheckedChanged += new System.EventHandler(this.removeStudentCheck_CheckedChanged);
             // 
-            // radioButton2
+            // removeSchoolCheck
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(225, 20);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(110, 21);
-            this.radioButton2.TabIndex = 22;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(433, 20);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(110, 21);
-            this.radioButton3.TabIndex = 23;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton3";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // radioButton4
-            // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(666, 20);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(110, 21);
-            this.radioButton4.TabIndex = 24;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.removeSchoolCheck.AutoSize = true;
+            this.removeSchoolCheck.Location = new System.Drawing.Point(666, 20);
+            this.removeSchoolCheck.Name = "removeSchoolCheck";
+            this.removeSchoolCheck.Size = new System.Drawing.Size(128, 21);
+            this.removeSchoolCheck.TabIndex = 24;
+            this.removeSchoolCheck.TabStop = true;
+            this.removeSchoolCheck.Text = "Remove School";
+            this.removeSchoolCheck.UseVisualStyleBackColor = true;
+            this.removeSchoolCheck.CheckedChanged += new System.EventHandler(this.removeSchoolCheck_CheckedChanged);
             // 
             // runProgramButton
             // 
@@ -291,35 +314,182 @@
             this.runProgramButton.TabIndex = 25;
             this.runProgramButton.Text = "Run Program";
             this.runProgramButton.UseVisualStyleBackColor = true;
-            this.runProgramButton.Click += new System.EventHandler(this.runProgramButton_Click);
             // 
-            // groupBox2
+            // checkBoxGroup
             // 
-            this.groupBox2.Controls.Add(this.runProgramButton);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Location = new System.Drawing.Point(50, 10);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1034, 57);
-            this.groupBox2.TabIndex = 26;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.checkBoxGroup.Controls.Add(this.runProgramButton);
+            this.checkBoxGroup.Controls.Add(this.removeSchoolCheck);
+            this.checkBoxGroup.Controls.Add(this.addSchoolCheck);
+            this.checkBoxGroup.Controls.Add(this.removeStudentCheck);
+            this.checkBoxGroup.Controls.Add(this.addStudentCheck);
+            this.checkBoxGroup.Location = new System.Drawing.Point(50, 10);
+            this.checkBoxGroup.Name = "checkBoxGroup";
+            this.checkBoxGroup.Size = new System.Drawing.Size(1034, 57);
+            this.checkBoxGroup.TabIndex = 26;
+            this.checkBoxGroup.TabStop = false;
+            // 
+            // removeStudentGroupBox
+            // 
+            this.removeStudentGroupBox.Controls.Add(this.nameOfStudentToRemoveBox);
+            this.removeStudentGroupBox.Controls.Add(this.nameStudentRemoveLabel);
+            this.removeStudentGroupBox.Controls.Add(this.removeStudentButton);
+            this.removeStudentGroupBox.Location = new System.Drawing.Point(554, 73);
+            this.removeStudentGroupBox.Name = "removeStudentGroupBox";
+            this.removeStudentGroupBox.Size = new System.Drawing.Size(359, 199);
+            this.removeStudentGroupBox.TabIndex = 27;
+            this.removeStudentGroupBox.TabStop = false;
+            this.removeStudentGroupBox.Text = "Remove Student";
+            this.removeStudentGroupBox.Visible = false;
+            // 
+            // nameOfStudentToRemoveBox
+            // 
+            this.nameOfStudentToRemoveBox.Location = new System.Drawing.Point(215, 31);
+            this.nameOfStudentToRemoveBox.Name = "nameOfStudentToRemoveBox";
+            this.nameOfStudentToRemoveBox.Size = new System.Drawing.Size(100, 22);
+            this.nameOfStudentToRemoveBox.TabIndex = 2;
+            // 
+            // nameStudentRemoveLabel
+            // 
+            this.nameStudentRemoveLabel.AutoSize = true;
+            this.nameStudentRemoveLabel.Location = new System.Drawing.Point(55, 31);
+            this.nameStudentRemoveLabel.Name = "nameStudentRemoveLabel";
+            this.nameStudentRemoveLabel.Size = new System.Drawing.Size(114, 17);
+            this.nameStudentRemoveLabel.TabIndex = 1;
+            this.nameStudentRemoveLabel.Text = "Name of Student";
+            // 
+            // removeStudentButton
+            // 
+            this.removeStudentButton.Location = new System.Drawing.Point(194, 121);
+            this.removeStudentButton.Name = "removeStudentButton";
+            this.removeStudentButton.Size = new System.Drawing.Size(121, 23);
+            this.removeStudentButton.TabIndex = 0;
+            this.removeStudentButton.Text = "Remove Student";
+            this.removeStudentButton.UseVisualStyleBackColor = true;
+            // 
+            // addSchoolGroupBox
+            // 
+            this.addSchoolGroupBox.Controls.Add(this.regionOfSchoolBox);
+            this.addSchoolGroupBox.Controls.Add(this.numberOfPlacementsBox);
+            this.addSchoolGroupBox.Controls.Add(this.nameOfSchoolToAddBox);
+            this.addSchoolGroupBox.Controls.Add(this.regionOfSchoolLabel);
+            this.addSchoolGroupBox.Controls.Add(this.numOfStudentsAcceptedLabel);
+            this.addSchoolGroupBox.Controls.Add(this.addSchoolNameLabel);
+            this.addSchoolGroupBox.Controls.Add(this.addSchoolButton);
+            this.addSchoolGroupBox.Location = new System.Drawing.Point(554, 333);
+            this.addSchoolGroupBox.Name = "addSchoolGroupBox";
+            this.addSchoolGroupBox.Size = new System.Drawing.Size(359, 247);
+            this.addSchoolGroupBox.TabIndex = 28;
+            this.addSchoolGroupBox.TabStop = false;
+            this.addSchoolGroupBox.Text = "Add School";
+            this.addSchoolGroupBox.Visible = false;
+            // 
+            // regionOfSchoolBox
+            // 
+            this.regionOfSchoolBox.Location = new System.Drawing.Point(226, 136);
+            this.regionOfSchoolBox.Name = "regionOfSchoolBox";
+            this.regionOfSchoolBox.Size = new System.Drawing.Size(100, 22);
+            this.regionOfSchoolBox.TabIndex = 6;
+            // 
+            // numberOfPlacementsBox
+            // 
+            this.numberOfPlacementsBox.Location = new System.Drawing.Point(226, 90);
+            this.numberOfPlacementsBox.Name = "numberOfPlacementsBox";
+            this.numberOfPlacementsBox.Size = new System.Drawing.Size(100, 22);
+            this.numberOfPlacementsBox.TabIndex = 5;
+            // 
+            // nameOfSchoolToAddBox
+            // 
+            this.nameOfSchoolToAddBox.Location = new System.Drawing.Point(226, 36);
+            this.nameOfSchoolToAddBox.Name = "nameOfSchoolToAddBox";
+            this.nameOfSchoolToAddBox.Size = new System.Drawing.Size(100, 22);
+            this.nameOfSchoolToAddBox.TabIndex = 4;
+            // 
+            // regionOfSchoolLabel
+            // 
+            this.regionOfSchoolLabel.AutoSize = true;
+            this.regionOfSchoolLabel.Location = new System.Drawing.Point(23, 121);
+            this.regionOfSchoolLabel.Name = "regionOfSchoolLabel";
+            this.regionOfSchoolLabel.Size = new System.Drawing.Size(53, 17);
+            this.regionOfSchoolLabel.TabIndex = 3;
+            this.regionOfSchoolLabel.Text = "Region";
+            // 
+            // numOfStudentsAcceptedLabel
+            // 
+            this.numOfStudentsAcceptedLabel.AutoSize = true;
+            this.numOfStudentsAcceptedLabel.Location = new System.Drawing.Point(23, 76);
+            this.numOfStudentsAcceptedLabel.Name = "numOfStudentsAcceptedLabel";
+            this.numOfStudentsAcceptedLabel.Size = new System.Drawing.Size(151, 17);
+            this.numOfStudentsAcceptedLabel.TabIndex = 2;
+            this.numOfStudentsAcceptedLabel.Text = "Number of Placements";
+            // 
+            // addSchoolNameLabel
+            // 
+            this.addSchoolNameLabel.AutoSize = true;
+            this.addSchoolNameLabel.Location = new System.Drawing.Point(20, 37);
+            this.addSchoolNameLabel.Name = "addSchoolNameLabel";
+            this.addSchoolNameLabel.Size = new System.Drawing.Size(108, 17);
+            this.addSchoolNameLabel.TabIndex = 1;
+            this.addSchoolNameLabel.Text = "Name of School";
+            // 
+            // addSchoolButton
+            // 
+            this.addSchoolButton.Location = new System.Drawing.Point(194, 205);
+            this.addSchoolButton.Name = "addSchoolButton";
+            this.addSchoolButton.Size = new System.Drawing.Size(75, 23);
+            this.addSchoolButton.TabIndex = 0;
+            this.addSchoolButton.Text = "Add School";
+            this.addSchoolButton.UseVisualStyleBackColor = true;
+            // 
+            // removeSchoolGroupBox
+            // 
+            this.removeSchoolGroupBox.Controls.Add(this.schoolNameToRemoveBox);
+            this.removeSchoolGroupBox.Controls.Add(this.schoolNameToRemoveLabel);
+            this.removeSchoolGroupBox.Location = new System.Drawing.Point(958, 290);
+            this.removeSchoolGroupBox.Name = "removeSchoolGroupBox";
+            this.removeSchoolGroupBox.Size = new System.Drawing.Size(229, 314);
+            this.removeSchoolGroupBox.TabIndex = 29;
+            this.removeSchoolGroupBox.TabStop = false;
+            this.removeSchoolGroupBox.Text = "Remove School";
+            this.removeSchoolGroupBox.Visible = false;
+            // 
+            // schoolNameToRemoveBox
+            // 
+            this.schoolNameToRemoveBox.Location = new System.Drawing.Point(129, 57);
+            this.schoolNameToRemoveBox.Name = "schoolNameToRemoveBox";
+            this.schoolNameToRemoveBox.Size = new System.Drawing.Size(100, 22);
+            this.schoolNameToRemoveBox.TabIndex = 1;
+            // 
+            // schoolNameToRemoveLabel
+            // 
+            this.schoolNameToRemoveLabel.AutoSize = true;
+            this.schoolNameToRemoveLabel.Location = new System.Drawing.Point(17, 57);
+            this.schoolNameToRemoveLabel.Name = "schoolNameToRemoveLabel";
+            this.schoolNameToRemoveLabel.Size = new System.Drawing.Size(92, 17);
+            this.schoolNameToRemoveLabel.TabIndex = 0;
+            this.schoolNameToRemoveLabel.Text = "School Name";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 732);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.removeSchoolGroupBox);
+            this.Controls.Add(this.addSchoolGroupBox);
+            this.Controls.Add(this.removeStudentGroupBox);
+            this.Controls.Add(this.checkBoxGroup);
+            this.Controls.Add(this.addStudentsGroupBox);
             this.Name = "Form1";
             this.Text = "Education Project";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.addStudentsGroupBox.ResumeLayout(false);
+            this.addStudentsGroupBox.PerformLayout();
+            this.checkBoxGroup.ResumeLayout(false);
+            this.checkBoxGroup.PerformLayout();
+            this.removeStudentGroupBox.ResumeLayout(false);
+            this.removeStudentGroupBox.PerformLayout();
+            this.addSchoolGroupBox.ResumeLayout(false);
+            this.addSchoolGroupBox.PerformLayout();
+            this.removeSchoolGroupBox.ResumeLayout(false);
+            this.removeSchoolGroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -327,31 +497,46 @@
         #endregion
 
         private System.Windows.Forms.Button addStudentButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.TextBox firstRegionBox;
+        private System.Windows.Forms.TextBox secondRegionBox;
+        private System.Windows.Forms.TextBox thirdRegionBox;
+        private System.Windows.Forms.TextBox fourthRegionBox;
+        private System.Windows.Forms.TextBox fifthRegionBox;
+        private System.Windows.Forms.TextBox sixthRegionBox;
+        private System.Windows.Forms.TextBox firstWildCardBox;
+        private System.Windows.Forms.TextBox secondWildCardBox;
+        private System.Windows.Forms.TextBox thirdWildCardBox;
+        private System.Windows.Forms.Label firstRegionLabel;
+        private System.Windows.Forms.Label thirdRegionLabel;
+        private System.Windows.Forms.Label fourthRegionLabel;
+        private System.Windows.Forms.Label fifthRegion;
+        private System.Windows.Forms.Label sixthRegionLabel;
+        private System.Windows.Forms.Label firstWildCardLabel;
+        private System.Windows.Forms.Label thirdWildCardLabel;
+        private System.Windows.Forms.Label secondWildCardLabel;
+        private System.Windows.Forms.Label secondRegionLabel;
+        private System.Windows.Forms.RadioButton addStudentCheck;
+        private System.Windows.Forms.RadioButton removeStudentCheck;
+        private System.Windows.Forms.RadioButton removeSchoolCheck;
         private System.Windows.Forms.Button runProgramButton;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox checkBoxGroup;
+        private System.Windows.Forms.GroupBox removeStudentGroupBox;
+        private System.Windows.Forms.TextBox nameOfStudentToRemoveBox;
+        private System.Windows.Forms.Label nameStudentRemoveLabel;
+        private System.Windows.Forms.Button removeStudentButton;
+        private System.Windows.Forms.GroupBox addSchoolGroupBox;
+        private System.Windows.Forms.TextBox regionOfSchoolBox;
+        private System.Windows.Forms.TextBox numberOfPlacementsBox;
+        private System.Windows.Forms.TextBox nameOfSchoolToAddBox;
+        private System.Windows.Forms.Label regionOfSchoolLabel;
+        private System.Windows.Forms.Label numOfStudentsAcceptedLabel;
+        private System.Windows.Forms.Label addSchoolNameLabel;
+        private System.Windows.Forms.Button addSchoolButton;
+        private System.Windows.Forms.GroupBox removeSchoolGroupBox;
+        private System.Windows.Forms.TextBox schoolNameToRemoveBox;
+        private System.Windows.Forms.Label schoolNameToRemoveLabel;
+        private System.Windows.Forms.GroupBox addStudentsGroupBox;
+        private System.Windows.Forms.RadioButton addSchoolCheck;
     }
 }
 

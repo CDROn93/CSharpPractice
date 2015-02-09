@@ -17,17 +17,50 @@ namespace addStudentsGui
             InitializeComponent();
         }
 
-        private void runProgramButton_Click(object sender, EventArgs e)
+        private void addStudentCheck_CheckedChanged(object sender, EventArgs e)
         {
-            if(groupBox1.Visible == true)
+            if(addStudentCheck.Checked)
             {
-                groupBox1.Visible = false;
-            }
-            else
-            {
-                groupBox1.Visible = true;
+                removeSchoolGroupBox.Visible = false;
+                removeStudentGroupBox.Visible = false;
+                addSchoolGroupBox.Visible = false;
+                addStudentsGroupBox.Visible = true;
             }
         }
 
+        private void removeStudentCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if(removeStudentCheck.Checked)
+            {
+                removeSchoolGroupBox.Visible = false;
+                addSchoolGroupBox.Visible = false;
+                addStudentsGroupBox.Visible = false;
+                removeStudentGroupBox.Visible = true;
+            }
+        }
+
+        private void addSchoolCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if(addSchoolCheck.Checked)
+                {
+                  removeSchoolGroupBox.Visible = false;
+                  addStudentsGroupBox.Visible = false;
+                  removeStudentGroupBox.Visible = false;
+                  addSchoolGroupBox.Visible = true;
+                }
+        }
+
+        private void removeSchoolCheck_CheckedChanged(object sender, EventArgs e)
+        {
+            if(removeSchoolCheck.Checked)
+            {
+                addSchoolGroupBox.Visible = false;
+                removeStudentGroupBox.Visible = false;
+                addStudentsGroupBox.Visible = false;
+                removeSchoolGroupBox.Visible = true;
+            }
+        }
+
+        
     }
 }
