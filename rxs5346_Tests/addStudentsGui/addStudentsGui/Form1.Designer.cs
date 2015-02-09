@@ -69,6 +69,9 @@
             this.removeSchoolGroupBox = new System.Windows.Forms.GroupBox();
             this.schoolNameToRemoveBox = new System.Windows.Forms.TextBox();
             this.schoolNameToRemoveLabel = new System.Windows.Forms.Label();
+            this.nameOfStudentLabel = new System.Windows.Forms.Label();
+            this.nameOfStudentAddedBox = new System.Windows.Forms.TextBox();
+            this.removeSchoolButton = new System.Windows.Forms.Button();
             this.addStudentsGroupBox.SuspendLayout();
             this.checkBoxGroup.SuspendLayout();
             this.removeStudentGroupBox.SuspendLayout();
@@ -78,6 +81,8 @@
             // 
             // addStudentsGroupBox
             // 
+            this.addStudentsGroupBox.Controls.Add(this.nameOfStudentAddedBox);
+            this.addStudentsGroupBox.Controls.Add(this.nameOfStudentLabel);
             this.addStudentsGroupBox.Controls.Add(this.secondRegionLabel);
             this.addStudentsGroupBox.Controls.Add(this.addStudentButton);
             this.addStudentsGroupBox.Controls.Add(this.secondWildCardLabel);
@@ -108,7 +113,7 @@
             // secondRegionLabel
             // 
             this.secondRegionLabel.AutoSize = true;
-            this.secondRegionLabel.Location = new System.Drawing.Point(77, 76);
+            this.secondRegionLabel.Location = new System.Drawing.Point(77, 108);
             this.secondRegionLabel.Name = "secondRegionLabel";
             this.secondRegionLabel.Size = new System.Drawing.Size(105, 17);
             this.secondRegionLabel.TabIndex = 19;
@@ -122,11 +127,12 @@
             this.addStudentButton.TabIndex = 0;
             this.addStudentButton.Text = "Add Student";
             this.addStudentButton.UseVisualStyleBackColor = true;
+            this.addStudentButton.Click += new System.EventHandler(this.addStudentButton_Click);
             // 
             // secondWildCardLabel
             // 
             this.secondWildCardLabel.AutoSize = true;
-            this.secondWildCardLabel.Location = new System.Drawing.Point(77, 350);
+            this.secondWildCardLabel.Location = new System.Drawing.Point(77, 382);
             this.secondWildCardLabel.Name = "secondWildCardLabel";
             this.secondWildCardLabel.Size = new System.Drawing.Size(121, 17);
             this.secondWildCardLabel.TabIndex = 18;
@@ -135,7 +141,7 @@
             // thirdWildCardLabel
             // 
             this.thirdWildCardLabel.AutoSize = true;
-            this.thirdWildCardLabel.Location = new System.Drawing.Point(76, 402);
+            this.thirdWildCardLabel.Location = new System.Drawing.Point(76, 434);
             this.thirdWildCardLabel.Name = "thirdWildCardLabel";
             this.thirdWildCardLabel.Size = new System.Drawing.Size(106, 17);
             this.thirdWildCardLabel.TabIndex = 16;
@@ -144,7 +150,7 @@
             // firstWildCardLabel
             // 
             this.firstWildCardLabel.AutoSize = true;
-            this.firstWildCardLabel.Location = new System.Drawing.Point(77, 297);
+            this.firstWildCardLabel.Location = new System.Drawing.Point(77, 329);
             this.firstWildCardLabel.Name = "firstWildCardLabel";
             this.firstWildCardLabel.Size = new System.Drawing.Size(100, 17);
             this.firstWildCardLabel.TabIndex = 15;
@@ -153,7 +159,7 @@
             // sixthRegionLabel
             // 
             this.sixthRegionLabel.AutoSize = true;
-            this.sixthRegionLabel.Location = new System.Drawing.Point(77, 260);
+            this.sixthRegionLabel.Location = new System.Drawing.Point(77, 292);
             this.sixthRegionLabel.Name = "sixthRegionLabel";
             this.sixthRegionLabel.Size = new System.Drawing.Size(87, 17);
             this.sixthRegionLabel.TabIndex = 14;
@@ -162,7 +168,7 @@
             // fifthRegion
             // 
             this.fifthRegion.AutoSize = true;
-            this.fifthRegion.Location = new System.Drawing.Point(77, 219);
+            this.fifthRegion.Location = new System.Drawing.Point(77, 251);
             this.fifthRegion.Name = "fifthRegion";
             this.fifthRegion.Size = new System.Drawing.Size(84, 17);
             this.fifthRegion.TabIndex = 13;
@@ -171,7 +177,7 @@
             // fourthRegionLabel
             // 
             this.fourthRegionLabel.AutoSize = true;
-            this.fourthRegionLabel.Location = new System.Drawing.Point(77, 171);
+            this.fourthRegionLabel.Location = new System.Drawing.Point(77, 203);
             this.fourthRegionLabel.Name = "fourthRegionLabel";
             this.fourthRegionLabel.Size = new System.Drawing.Size(98, 17);
             this.fourthRegionLabel.TabIndex = 12;
@@ -180,7 +186,7 @@
             // thirdRegionLabel
             // 
             this.thirdRegionLabel.AutoSize = true;
-            this.thirdRegionLabel.Location = new System.Drawing.Point(77, 127);
+            this.thirdRegionLabel.Location = new System.Drawing.Point(77, 159);
             this.thirdRegionLabel.Name = "thirdRegionLabel";
             this.thirdRegionLabel.Size = new System.Drawing.Size(90, 17);
             this.thirdRegionLabel.TabIndex = 11;
@@ -189,7 +195,7 @@
             // firstRegionLabel
             // 
             this.firstRegionLabel.AutoSize = true;
-            this.firstRegionLabel.Location = new System.Drawing.Point(77, 27);
+            this.firstRegionLabel.Location = new System.Drawing.Point(91, 59);
             this.firstRegionLabel.Name = "firstRegionLabel";
             this.firstRegionLabel.Size = new System.Drawing.Size(84, 17);
             this.firstRegionLabel.TabIndex = 10;
@@ -197,63 +203,63 @@
             // 
             // thirdWildCardBox
             // 
-            this.thirdWildCardBox.Location = new System.Drawing.Point(261, 402);
+            this.thirdWildCardBox.Location = new System.Drawing.Point(261, 434);
             this.thirdWildCardBox.Name = "thirdWildCardBox";
             this.thirdWildCardBox.Size = new System.Drawing.Size(100, 22);
             this.thirdWildCardBox.TabIndex = 9;
             // 
             // secondWildCardBox
             // 
-            this.secondWildCardBox.Location = new System.Drawing.Point(261, 350);
+            this.secondWildCardBox.Location = new System.Drawing.Point(261, 382);
             this.secondWildCardBox.Name = "secondWildCardBox";
             this.secondWildCardBox.Size = new System.Drawing.Size(100, 22);
             this.secondWildCardBox.TabIndex = 8;
             // 
             // firstWildCardBox
             // 
-            this.firstWildCardBox.Location = new System.Drawing.Point(261, 297);
+            this.firstWildCardBox.Location = new System.Drawing.Point(261, 329);
             this.firstWildCardBox.Name = "firstWildCardBox";
             this.firstWildCardBox.Size = new System.Drawing.Size(100, 22);
             this.firstWildCardBox.TabIndex = 7;
             // 
             // sixthRegionBox
             // 
-            this.sixthRegionBox.Location = new System.Drawing.Point(261, 255);
+            this.sixthRegionBox.Location = new System.Drawing.Point(261, 287);
             this.sixthRegionBox.Name = "sixthRegionBox";
             this.sixthRegionBox.Size = new System.Drawing.Size(100, 22);
             this.sixthRegionBox.TabIndex = 6;
             // 
             // fifthRegionBox
             // 
-            this.fifthRegionBox.Location = new System.Drawing.Point(261, 214);
+            this.fifthRegionBox.Location = new System.Drawing.Point(261, 246);
             this.fifthRegionBox.Name = "fifthRegionBox";
             this.fifthRegionBox.Size = new System.Drawing.Size(100, 22);
             this.fifthRegionBox.TabIndex = 5;
             // 
             // fourthRegionBox
             // 
-            this.fourthRegionBox.Location = new System.Drawing.Point(261, 166);
+            this.fourthRegionBox.Location = new System.Drawing.Point(261, 198);
             this.fourthRegionBox.Name = "fourthRegionBox";
             this.fourthRegionBox.Size = new System.Drawing.Size(100, 22);
             this.fourthRegionBox.TabIndex = 4;
             // 
             // thirdRegionBox
             // 
-            this.thirdRegionBox.Location = new System.Drawing.Point(261, 122);
+            this.thirdRegionBox.Location = new System.Drawing.Point(261, 154);
             this.thirdRegionBox.Name = "thirdRegionBox";
             this.thirdRegionBox.Size = new System.Drawing.Size(100, 22);
             this.thirdRegionBox.TabIndex = 3;
             // 
             // secondRegionBox
             // 
-            this.secondRegionBox.Location = new System.Drawing.Point(261, 76);
+            this.secondRegionBox.Location = new System.Drawing.Point(261, 108);
             this.secondRegionBox.Name = "secondRegionBox";
             this.secondRegionBox.Size = new System.Drawing.Size(100, 22);
             this.secondRegionBox.TabIndex = 2;
             // 
             // firstRegionBox
             // 
-            this.firstRegionBox.Location = new System.Drawing.Point(261, 27);
+            this.firstRegionBox.Location = new System.Drawing.Point(261, 59);
             this.firstRegionBox.Name = "firstRegionBox";
             this.firstRegionBox.Size = new System.Drawing.Size(100, 22);
             this.firstRegionBox.TabIndex = 1;
@@ -365,6 +371,7 @@
             this.removeStudentButton.TabIndex = 0;
             this.removeStudentButton.Text = "Remove Student";
             this.removeStudentButton.UseVisualStyleBackColor = true;
+            this.removeStudentButton.Click += new System.EventHandler(this.removeStudentButton_Click);
             // 
             // addSchoolGroupBox
             // 
@@ -407,7 +414,7 @@
             // regionOfSchoolLabel
             // 
             this.regionOfSchoolLabel.AutoSize = true;
-            this.regionOfSchoolLabel.Location = new System.Drawing.Point(23, 121);
+            this.regionOfSchoolLabel.Location = new System.Drawing.Point(23, 141);
             this.regionOfSchoolLabel.Name = "regionOfSchoolLabel";
             this.regionOfSchoolLabel.Size = new System.Drawing.Size(53, 17);
             this.regionOfSchoolLabel.TabIndex = 3;
@@ -435,18 +442,20 @@
             // 
             this.addSchoolButton.Location = new System.Drawing.Point(194, 205);
             this.addSchoolButton.Name = "addSchoolButton";
-            this.addSchoolButton.Size = new System.Drawing.Size(75, 23);
+            this.addSchoolButton.Size = new System.Drawing.Size(96, 23);
             this.addSchoolButton.TabIndex = 0;
             this.addSchoolButton.Text = "Add School";
             this.addSchoolButton.UseVisualStyleBackColor = true;
+            this.addSchoolButton.Click += new System.EventHandler(this.addSchoolButton_Click);
             // 
             // removeSchoolGroupBox
             // 
+            this.removeSchoolGroupBox.Controls.Add(this.removeSchoolButton);
             this.removeSchoolGroupBox.Controls.Add(this.schoolNameToRemoveBox);
             this.removeSchoolGroupBox.Controls.Add(this.schoolNameToRemoveLabel);
-            this.removeSchoolGroupBox.Location = new System.Drawing.Point(958, 290);
+            this.removeSchoolGroupBox.Location = new System.Drawing.Point(930, 271);
             this.removeSchoolGroupBox.Name = "removeSchoolGroupBox";
-            this.removeSchoolGroupBox.Size = new System.Drawing.Size(229, 314);
+            this.removeSchoolGroupBox.Size = new System.Drawing.Size(354, 334);
             this.removeSchoolGroupBox.TabIndex = 29;
             this.removeSchoolGroupBox.TabStop = false;
             this.removeSchoolGroupBox.Text = "Remove School";
@@ -468,11 +477,37 @@
             this.schoolNameToRemoveLabel.TabIndex = 0;
             this.schoolNameToRemoveLabel.Text = "School Name";
             // 
+            // nameOfStudentLabel
+            // 
+            this.nameOfStudentLabel.AutoSize = true;
+            this.nameOfStudentLabel.Location = new System.Drawing.Point(93, 31);
+            this.nameOfStudentLabel.Name = "nameOfStudentLabel";
+            this.nameOfStudentLabel.Size = new System.Drawing.Size(117, 17);
+            this.nameOfStudentLabel.TabIndex = 20;
+            this.nameOfStudentLabel.Text = "Name Of Student";
+            // 
+            // nameOfStudentAddedBox
+            // 
+            this.nameOfStudentAddedBox.Location = new System.Drawing.Point(261, 26);
+            this.nameOfStudentAddedBox.Name = "nameOfStudentAddedBox";
+            this.nameOfStudentAddedBox.Size = new System.Drawing.Size(100, 22);
+            this.nameOfStudentAddedBox.TabIndex = 21;
+            // 
+            // removeSchoolButton
+            // 
+            this.removeSchoolButton.Location = new System.Drawing.Point(44, 125);
+            this.removeSchoolButton.Name = "removeSchoolButton";
+            this.removeSchoolButton.Size = new System.Drawing.Size(115, 23);
+            this.removeSchoolButton.TabIndex = 2;
+            this.removeSchoolButton.Text = "Remove School";
+            this.removeSchoolButton.UseVisualStyleBackColor = true;
+            this.removeSchoolButton.Click += new System.EventHandler(this.removeSchoolButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 732);
+            this.ClientSize = new System.Drawing.Size(1434, 732);
             this.Controls.Add(this.removeSchoolGroupBox);
             this.Controls.Add(this.addSchoolGroupBox);
             this.Controls.Add(this.removeStudentGroupBox);
@@ -537,6 +572,9 @@
         private System.Windows.Forms.Label schoolNameToRemoveLabel;
         private System.Windows.Forms.GroupBox addStudentsGroupBox;
         private System.Windows.Forms.RadioButton addSchoolCheck;
+        private System.Windows.Forms.TextBox nameOfStudentAddedBox;
+        private System.Windows.Forms.Label nameOfStudentLabel;
+        private System.Windows.Forms.Button removeSchoolButton;
     }
 }
 
