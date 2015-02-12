@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{3D23B983-E0A2-4061-8B9E-9156E81EE464}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.csproj", "{3A711756-3B02-44AE-8FA9-BC90F023DEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,6 +47,14 @@ Global
 		{3D23B983-E0A2-4061-8B9E-9156E81EE464}.Debug|x86.Build.0 = Debug|x86
 		{3D23B983-E0A2-4061-8B9E-9156E81EE464}.Release|x86.ActiveCfg = Release|x86
 		{3D23B983-E0A2-4061-8B9E-9156E81EE464}.Release|x86.Build.0 = Release|x86
+		{3A711756-3B02-44AE-8FA9-BC90F023DEA4}.Debug|x86.ActiveCfg = Debug|x86
+		{3A711756-3B02-44AE-8FA9-BC90F023DEA4}.Debug|x86.Build.0 = Debug|x86
+		{3A711756-3B02-44AE-8FA9-BC90F023DEA4}.Release|x86.ActiveCfg = Release|x86
+		{3A711756-3B02-44AE-8FA9-BC90F023DEA4}.Release|x86.Build.0 = Release|x86
+		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Debug|x86.ActiveCfg = Debug|x86
+		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Debug|x86.Build.0 = Debug|x86
+		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Release|x86.ActiveCfg = Release|x86
+		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
