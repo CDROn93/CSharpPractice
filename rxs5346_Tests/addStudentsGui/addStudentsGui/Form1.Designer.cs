@@ -336,6 +336,7 @@
             this.runProgramButton.TabIndex = 25;
             this.runProgramButton.Text = "Run Program";
             this.runProgramButton.UseVisualStyleBackColor = true;
+            this.runProgramButton.Click += new System.EventHandler(this.runProgramButton_Click);
             // 
             // checkBoxGroup
             // 
