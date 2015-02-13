@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threads", "Threads\Threads.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic Methods", "Dynamic Methods\Dynamic Methods.csproj", "{F24251C7-FF20-4A75-872B-1B0A1CBE3A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PInvoke", "PInvoke\PInvoke.csproj", "{8F67CB03-E508-47D2-A497-623A6B7BC85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsCollections", "GenericsCollections\GenericsCollections.csproj", "{6B4BB033-375C-48F9-9CEB-66753F8B9A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -55,6 +61,18 @@ Global
 		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Debug|x86.Build.0 = Debug|x86
 		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Release|x86.ActiveCfg = Release|x86
 		{CC120D75-61AF-4DDB-B78F-A0D5EB8AF6A9}.Release|x86.Build.0 = Release|x86
+		{F24251C7-FF20-4A75-872B-1B0A1CBE3A4C}.Debug|x86.ActiveCfg = Debug|x86
+		{F24251C7-FF20-4A75-872B-1B0A1CBE3A4C}.Debug|x86.Build.0 = Debug|x86
+		{F24251C7-FF20-4A75-872B-1B0A1CBE3A4C}.Release|x86.ActiveCfg = Release|x86
+		{F24251C7-FF20-4A75-872B-1B0A1CBE3A4C}.Release|x86.Build.0 = Release|x86
+		{8F67CB03-E508-47D2-A497-623A6B7BC85F}.Debug|x86.ActiveCfg = Debug|x86
+		{8F67CB03-E508-47D2-A497-623A6B7BC85F}.Debug|x86.Build.0 = Debug|x86
+		{8F67CB03-E508-47D2-A497-623A6B7BC85F}.Release|x86.ActiveCfg = Release|x86
+		{8F67CB03-E508-47D2-A497-623A6B7BC85F}.Release|x86.Build.0 = Release|x86
+		{6B4BB033-375C-48F9-9CEB-66753F8B9A4B}.Debug|x86.ActiveCfg = Debug|x86
+		{6B4BB033-375C-48F9-9CEB-66753F8B9A4B}.Debug|x86.Build.0 = Debug|x86
+		{6B4BB033-375C-48F9-9CEB-66753F8B9A4B}.Release|x86.ActiveCfg = Release|x86
+		{6B4BB033-375C-48F9-9CEB-66753F8B9A4B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
