@@ -18,7 +18,7 @@ namespace addStudentsGui
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new loginForm());
             
-            
+            //NEED TO CLOSE THE LOGIN FORM WHEN CLOSING THE APPLICATION>.... not just hide it... memmory leak
         }
     }
 }

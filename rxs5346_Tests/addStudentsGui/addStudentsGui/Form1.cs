@@ -190,7 +190,7 @@ namespace addStudentsGui
 
         private void runProgramButton_Click(object sender, EventArgs e)
         {
-            DatabaseConnection.sqlConnect();
+            DatabaseConnection.checkIfDbExists();
         }
     }
 }
